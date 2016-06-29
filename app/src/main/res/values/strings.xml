@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Animation Demo</string>
+    <string name="title_activity_property_animator">PropertyAnimatorActivity</string>
+</resources>
