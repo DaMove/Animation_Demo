@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Animation Demo</string>
     <string name="title_activity_property_animator">PropertyAnimatorActivity</string>
+    <string name="imageview_for_frame_by_frame_animation">ImageView for frame-by-frame animation</string>
+    <string name="view_animations">View Animations</string>
+    <string name="property_animations">Property Animations</string>
+    <string name="frame_animation">Frame Animation</string>
+    <string name="transitions">Transitions</string>
 </resources>

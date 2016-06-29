@@ -7,11 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+                android:background="#0ca9de"
     tools:context="abroscreative.com.animationdemo.FrameAnimActivity">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageFrame"
+        android:contentDescription="@string/imageview_for_frame_by_frame_animation"
         />
 </RelativeLayout>

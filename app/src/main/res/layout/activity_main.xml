@@ -8,13 +8,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+              android:background="@color/colorAccent"
     tools:context="abroscreative.com.animationdemo.MainActivity">
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Animations"
+        android:text="@string/view_animations"
         android:id="@+id/button"
         android:onClick="launchViewAnimations"
         />
@@ -22,21 +23,21 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Property Animations"
+        android:text="@string/property_animations"
         android:onClick="launchPropertyAnimations"
         android:id="@+id/button2" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Frame Animation"
+        android:text="@string/frame_animation"
         android:onClick="launchFrameAnimation"
         android:id="@+id/button3" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transitions"
+        android:text="@string/transitions"
         android:id="@+id/button10"
         android:onClick="launchTransitionAnimations"
         />
